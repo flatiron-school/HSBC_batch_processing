@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Batch Processing</title>
+
+        <!-- Scripts for Plotly -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    </head>
+
+    <body>
+        <h1>Daily Sales Forecast</h1>
+        <div class="chart" id="forecast_plot">
+        <script>
+            var graphs  = {{plot | safe}};
+            Plotly.plot('forecast_plot', graphs, {});
+        </script> 
+        </div>
+    </body>
+</html>
