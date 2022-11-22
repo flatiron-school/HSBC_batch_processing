@@ -5,7 +5,7 @@ To run the notebook, you first need to create and activate the `batch-env` conda
 
 ```conda env create -f environment.yml```
 
-```conda activate synth-data```
+```conda activate batch-data```
 
 Instructions on how to do this can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
