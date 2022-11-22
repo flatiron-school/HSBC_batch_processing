@@ -28,3 +28,7 @@ Once the environment is activated, install the required packages:
 Now you can run the Flask app:
 
 ```python app.py```
+
+To reset the databases, navigate to the data directory and run the `reset_data.py` script:
+
+```python reset_data.py```
